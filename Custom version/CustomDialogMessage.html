@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Кастомное диалоговое окно</title>
+  <style>
+    /* CSS стили для кнопки */
+    button {
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+	/* CSS стили вашего кастомного диалогового окна */
+	/* .custom-dialog {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  background-color: rgba(0, 0, 0, 0.5);
+	  display: none;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.custom-dialog-content {
+	  background-color: #fff;
+	  padding: 20px;
+	  border-radius: 10px;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	  text-align: center;
+	}
+
+	.custom-dialog-message {
+	  font-size: 18px;
+	  margin-bottom: 10px;
+	}
+
+	.custom-dialog-close {
+	  font-size: 16px;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  background-color: #007bff;
+	  color: #fff;
+	  border: none;
+	  cursor: pointer;
+	} */
+  </style>
+   <!-- <link rel="import" href="./custom-dialog.html" /> -->
+   <link rel="stylesheet" href="./custom-dialog.css" />
+</head>
+<body>
+  <button id="custom-dialog-button">Открыть диалоговое окно</button>
+  <custom-dialog id="custom-dialog">
+    <template id="custom-dialog-template">
+      <div class="custom-dialog-content">
+        <p class="custom-dialog-message"></p>
+        <button class="custom-dialog-close">OK</button>
+      </div>
+    </template>
+  </custom-dialog>
+  <script src="./custom-dialog.js"></script>
+  <script>
+    const customDialogButton = document.getElementById('custom-dialog-button');
+    const customDialog = document.getElementsByTagName('custom-dialog')[0];
+
+    customDialogButton.addEventListener('click', () => {
+      customDialog.show('Пидарас!');
+    });
+  </script>
+  <!-- <script>
+    const button = document.querySelector('#custom-dialog-button');
+
+    button.addEventListener('click', () => {
+      // Создаем кастомное диалоговое окно
+      const dialog = document.createElement('div');
+      dialog.classList.add('custom-dialog');
+
+      // Создаем содержимое окна
+      const content = document.createElement('div');
+      content.classList.add('custom-dialog-content');
+      dialog.appendChild(content);
+
+      // Создаем заголовок окна
+      const title = document.createElement('h2');
+      title.innerText = 'Заголовок окна';
+      content.appendChild(title);
+
+      // Создаем текст сообщения
+      const message = document.createElement('p');
+      message.classList.add('custom-dialog-message');
+      message.innerText = 'Hello, world!';
+      content.appendChild(message);
+
+      // Создаем кнопку закрытия окна
+      const closeButton = document.createElement('button');
+      closeButton.classList.add('custom-dialog-close');
+      closeButton.innerText = 'OK';
+      closeButton.addEventListener('click', () => {
+        dialog.remove();
+      });
+      content.appendChild(closeButton);
+
+      // Добавляем окно на страницу
+      document.body.appendChild(dialog);
+      dialog.style.display = 'flex';
+    });
+  </script> -->
+
+
+</body>
+</html>

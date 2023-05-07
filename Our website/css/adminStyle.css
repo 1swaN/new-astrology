@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "El Messiri", sans-serif;
+}
+button,
+input {
+  font-family: "El Messiri", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  text-align: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #663399;
+  color: #fff;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+.page-header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+.controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 21px 0;
+}
+.controller__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 330px;
+}
+.func-button {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.datetime {
+  border: 1px solid #663399;
+  border-radius: 5px;
+  text-indent: 4px;
+  height: 40px;
+  width: 200px;
+  padding-right: 5px;
+  margin-left: 10px;
+}
+.close {
+  background-color: #dc143c;
+}
+.reschedule {
+  background-color: #1e90ff;
+}

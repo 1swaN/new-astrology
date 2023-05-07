@@ -1,0 +1,43 @@
+{
+    "en": {
+      "main": {
+        "info__title": "Astrology specialist - Helena",
+        "description": "Higher-order considerations, as well as the further development of various forms of activity, require us to analyze the existing financial and administrative conditions systematically.",
+        "button": "Book a session"
+      },
+      "footer": {
+        "rights": "All rights reserved &copy; 2023"
+      },
+      "filter": {
+        "form__info": "Information about you",
+        "customerSurnameField": "Your last name",
+        "customerNameField": "Your name"
+      }
+    },
+    "es": {
+      "main": {
+        "info__title": "Especialista en astrología - Helena",
+        "description": "Consideraciones de orden superior, así como el desarrollo posterior de diversas formas de actividad, nos exigen analizar sistemáticamente las condiciones financieras y administrativas existentes.",
+        "button": "Reservar una sesión"
+      },
+      "footer": {
+        "rights": "Todos los derechos reservados &copy; 2023"
+      }
+    },
+    "ru": {
+      "main": {
+        "info__title": "Специалист по астрологии - Елена",
+        "description": "Высшие соображения, а также дальнейшее развитие различных форм деятельности требует от нас системного анализа существующих финансовых и административных условий.",
+        "button": "Записаться на сеанс"
+      },
+      "footer": {
+        "rights": "Все права защищены &copy; 2023"
+      },
+      "filter": {
+        "form__info": "Информация о вас",
+        "customerSurnameField": "Ваша фамилия",
+        "customerNameField": "Ваше имя"
+      }
+    }
+  }
+  

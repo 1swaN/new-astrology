@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      /* CSS стили для кнопки */
+      button {
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    /* CSS стили вашего кастомного диалогового окна */
+    .custom-dialog {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .custom-dialog-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+  
+    .custom-dialog-message {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .custom-dialog-close {
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    </style>
+  </head>
+  <body>
+    <template id="custom-dialog-template">
+      <div class="custom-dialog-content">
+        <p class="custom-dialog-message"></p>
+        <button class="custom-dialog-close">OK</button>
+      </div>
+    </template>
+  </body>
+</HTML>
+

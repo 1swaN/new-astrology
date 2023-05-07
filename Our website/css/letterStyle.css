@@ -1,0 +1,59 @@
+body{
+  background-image: url(../jpg/photo_2023-04-23_22-27-10.jpg);
+}
+.letter{
+  margin: 100px auto;
+  width: 650px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.additional_text{
+  font-size: 1.3em;
+}
+.notification-header {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.table-container {
+  margin: auto;
+  width: 550px;
+  border-bottom: 1px solid #e5e9f2;
+  border-top: 1px solid #e5e9f2;
+  padding: 15px 0;
+}
+.table {
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: 1px solid #59178f;
+  border-collapse: collapse;
+}
+.table-cell {
+padding: 15px;
+}
+.table-header {
+  border-right: 1px solid #59178f;
+  background-color: #8c52bb;
+  color: #fff;
+}
+th{
+  text-align: left;
+  width: 200px;
+}
+tr:not(:last-child){
+  border-bottom: 1px solid #59178f;
+}
+td{
+  text-align: center;
+  width: 326px;
+}
+i{
+  width: 22px;
+  height: 22px;
+  padding-right: 5px;
+  color: #fff
+}
